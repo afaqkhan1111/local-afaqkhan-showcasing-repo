@@ -51,6 +51,7 @@ const Portfolio: React.FC<PortfolioProps> = ({
       description: "A mobile application designed for iOS and Android platforms.",
       tags: ["React Native", "Firebase", "Mobile"],
       link: "https://dribbble.com/search/ios-and-android",
+      coverImage: "/pic/dribbble.png",
     },
     {
       id: 3,
@@ -59,6 +60,7 @@ const Portfolio: React.FC<PortfolioProps> = ({
       description: "UI/UX design for a fintech startup application.",
       tags: ["Figma", "UI/UX", "Design System"],
       link: "https://withplum.com/",
+      coverImage: "/pic/withplum.png",
     },
     {
       id: 4,
@@ -67,6 +69,7 @@ const Portfolio: React.FC<PortfolioProps> = ({
       description: "An e-commerce platform with advanced features.",
       tags: ["Next.js", "E-commerce", "Stripe"],
       link: "https://xcessorieshub.com/",
+      coverImage: "/pic/xcessorieshub.png",
     },
     {
       id: 7,
@@ -75,6 +78,7 @@ const Portfolio: React.FC<PortfolioProps> = ({
       description: "Machine learning dashboard for data visualization and model monitoring.",
       tags: ["Python", "TensorFlow", "D3.js"],
       link: "https://dataforest.ai/services/web-applications/custom-dashboard-development-services",
+      coverImage: "/pic/aidashboard.png",
     },
     {
       id: 8,
@@ -83,6 +87,7 @@ const Portfolio: React.FC<PortfolioProps> = ({
       description: "Full-stack real estate platform with property search and listings.",
       tags: ["Vue.js", "Node.js", "MongoDB"],
       link: "https://www.glide.com/",
+      coverImage: "/pic/realestate.png",
     },
     {
       id: 9,
@@ -91,6 +96,7 @@ const Portfolio: React.FC<PortfolioProps> = ({
       description: "Cross-platform productivity app with team collaboration features.",
       tags: ["Flutter", "Dart", "REST API"],
       link: "https://www.manageengine.com/products/service-desk/?network=g&device=c&keyword=task%20management%20tool&campaignid=9198891108&creative=415321639084&matchtype=e&adposition=&placement=&adgroup=93522596312&targetid=kwd-390307003&location=1011084&gad_source=1&gad_campaignid=9198891108&gbraid=0AAAAAChOJfe8ZkUe1mH5UojLAbUh5AXgy&gclid=Cj0KCQjwmqPDBhCAARIsADorxIZUEnlET5JSCFkZY_aFlGPOI31_sFU1oeortV1T6QMkwsej0s4j_2caAuEbEALw_wcB",
+      coverImage: "/pic/taskmanagement.png",
     },
     {
       id: 10,
@@ -99,6 +105,7 @@ const Portfolio: React.FC<PortfolioProps> = ({
       description: "Location-based food delivery app with real-time tracking.",
       tags: ["React Native", "Maps API", "Payment"],
       link: "https://www.food.gg/",
+      coverImage: "/pic/fooddelivery.png",
     },
     {
       id: 11,
@@ -107,6 +114,7 @@ const Portfolio: React.FC<PortfolioProps> = ({
       description: "Complete UI/UX design for a project management SaaS platform.",
       tags: ["Sketch", "Prototyping", "User Research"],
       link: "https://www.visily.ai/",
+      coverImage: "/pic/saasproduct.png",
     },
     {
       id: 12,
@@ -115,6 +123,7 @@ const Portfolio: React.FC<PortfolioProps> = ({
       description: "UI design for a multiplayer online gaming platform.",
       tags: ["Game UI", "Animation", "User Experience"],
       link: "https://www.behance.net/tags/game-ui",
+      coverImage: "/pic/gaminginterface.png",
     },
     {
       id: 13,
@@ -123,6 +132,7 @@ const Portfolio: React.FC<PortfolioProps> = ({
       description: "Advanced computer vision platform for object detection and image analysis.",
       tags: ["OpenCV", "PyTorch", "Computer Vision"],
       link: "https://www.appen.com/computer-vision",
+      coverImage: "/pic/computervision.png",
     },
     {
       id: 14,
@@ -131,6 +141,7 @@ const Portfolio: React.FC<PortfolioProps> = ({
       description: "Sentiment analysis and text processing API using transformer models.",
       tags: ["BERT", "Transformers", "NLP"],
       link: "https://docs.knowi.com/hc/en-us/articles/360026263994-Natural-Language-Processing-NLP",
+      coverImage: "/pic/naturallanguage.png",
     },
     {
       id: 15,
@@ -139,6 +150,7 @@ const Portfolio: React.FC<PortfolioProps> = ({
       description: "Real-time predictive analytics for business intelligence and forecasting.",
       tags: ["Machine Learning", "Pandas", "Scikit-learn"],
       link: "https://www.tableau.com/",
+      coverImage: "/pic/predictiveAnalytics.png",
     },
     {
       id: 16,
@@ -147,6 +159,7 @@ const Portfolio: React.FC<PortfolioProps> = ({
       description: "Conversational AI framework with multi-language support and intent recognition.",
       tags: ["Dialogflow", "TensorFlow", "Chatbot"],
       link: "https://www.thinkstack.ai/",
+      coverImage: "/pic/aichatbot.png",
     },
   ];
 
